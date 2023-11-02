@@ -3,7 +3,7 @@ import { build } from "./deploy-cannon";
 import synthetixDeployment from "../deployments/synthetix/CoreProxy.json";
 
 // To run:
-// cannon build synthetix-sandbox.toml --write-script ./cannon-deploy.ts --wipe
+// cannon build ./scripts/synthetix-sandbox.toml --write-script ./scripts/cannon-deploy.ts
 // cannon inspect synthetix-sandbox --write-deployments ./deployments
 // npx hardhat node
 // npx hardhat run --network localhost scripts/deploy.ts
